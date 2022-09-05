@@ -1,6 +1,6 @@
 # Pirate API
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![tests](https://github.com/philnash/pirate-api/actions/workflows/test.yml/badge.svg)](https://github.com/philnash/pirate-api/actions/workflows/test.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 This is a Deno wrapper for the
 [Pirate Monkeyness API](https://pirate.monkeyness.com/api.html) that is also
