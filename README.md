@@ -1,5 +1,7 @@
 # 🏴‍☠️ Pirate API ☠️
 
+[![deno](https://shield.deno.dev/x/pirate_api)](https://deno.land/x/pirate_api)
+[![npm](https://img.shields.io/npm/v/pirate-api)](https://www.npmjs.com/package/pirate-api)
 [![tests](https://github.com/philnash/pirate-api/actions/workflows/test.yml/badge.svg)](https://github.com/philnash/pirate-api/actions/workflows/test.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
