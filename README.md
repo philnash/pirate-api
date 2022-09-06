@@ -1,11 +1,18 @@
-# Pirate API
+# 🏴‍☠️ Pirate API ☠️
 
 [![tests](https://github.com/philnash/pirate-api/actions/workflows/test.yml/badge.svg)](https://github.com/philnash/pirate-api/actions/workflows/test.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 This is a Deno wrapper for the
-[Pirate Monkeyness API](https://pirate.monkeyness.com/api.html) that is also
-available as an npm module.
+[Pirate Monkeyness API](https://pirate.monkeyness.com/api.html) that is
+available as a [Deno module](https://deno.land/x/pirate_api) and a
+[Node.js module on npm](https://www.npmjs.com/package/pirate-api).
+
+- [Usage](#usage)
+  - [Deno](#deno)
+  - [Node.js](#nodejs)
+- [Thanks](#thanks)
+- [What's a pirate's favourite programming language?](#whats-a-pirates-favourite-programming-language)
 
 ## Usage
 
@@ -19,8 +26,12 @@ translation of that text.
 import { insult, translate } from "https://deno.land/x/pirate_api/mod.ts";
 
 console.log(await insult());
+// => "I'll gut ye bow to stern, ye dreadful, cowardly mongrel! ... Blow me down!"
 
-console.log(await translate("Let's take to the seas for an adventure."));
+console.log(
+  await translate("Let's take to the seas for an adventure captain."),
+);
+// => "Let's take t' the seas fer an adventure cap'n."
 ```
 
 ### Node.js
@@ -37,8 +48,12 @@ You can then use the module in your application like this:
 import { insult, translate } from "pirate-api";
 
 console.log(await insult());
+// => "Yer face be good fer stoppin' cannonballs, ye scrappy, salty dullard! ... Blow me down!"
 
-console.log(await translate("Let's take to the seas for an adventure."));
+console.log(
+  await translate("Let's take to the seas for an adventure captain."),
+);
+// => "Let's take t' the seas fer an adventure cap'n."
 ```
 
 You can also use this module as a Common JS require:
@@ -47,12 +62,12 @@ You can also use this module as a Common JS require:
 const { insult, translate } = require("pirate-api");
 
 console.log(await insult());
+// => "It's the locker for ye, ye pitiful, weak-kneed swab! ... Splice the mainbrace!"
 
 console.log(
-  await translate(
-    "JavaScript truly is a very versatile language, don't you think?",
-  ),
+  await translate("JavaScript is a very versatile language, don't you think?"),
 );
+// => "JavaScript be a mighty versatile language, don't ye reckon?"
 ```
 
 ## Thanks
@@ -60,3 +75,8 @@ console.log(
 Thanks very much to [Tim Moses](https://tim.moses.com/) the creator of the
 [Pirate Monkeyness API](https://pirate.monkeyness.com/api.html). It is a free
 service and it makes me very happy that it exists.
+
+## What's a pirate's favourite programming language?
+
+> Ye might reckon a pirate's fav'rit programmin' language be R, but his first
+> love be the C!"
