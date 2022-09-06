@@ -5,9 +5,11 @@
 [![tests](https://github.com/philnash/pirate-api/actions/workflows/test.yml/badge.svg)](https://github.com/philnash/pirate-api/actions/workflows/test.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-This is a Deno wrapper for the
-[Pirate Monkeyness API](https://pirate.monkeyness.com/api.html) that is
-available as a [Deno module](https://deno.land/x/pirate_api) and a
+The [Pirate Monkeyness API](https://pirate.monkeyness.com/api.html) can generate
+**pirate insults** and it can **translate from English to Pirate**.
+
+This is a Deno wrapper for the API that is available as both a
+[Deno module](https://deno.land/x/pirate_api) and a
 [Node.js module on npm](https://www.npmjs.com/package/pirate-api).
 
 - [Usage](#usage)
