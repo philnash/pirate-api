@@ -1,0 +1,20 @@
+{
+  "lint": {
+    "files": {
+      "include": ["mod.ts", "src/"],
+      "exclude": ["npm/"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["mod.ts", "src/", "tests/", "scripts/"],
+      "exclude": ["npm/"]
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["tests/"],
+      "exclude": ["npm/"]
+    }
+  }
+}

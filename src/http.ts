@@ -2,7 +2,7 @@ import { PirateApiError, PirateApiHttpError } from "./errors.ts";
 
 async function makeRequest(url: URL): Promise<Response> {
   try {
-    return await fetch(url);
+    return await fetch(url.toString());
   } catch (error) {
     throw new PirateApiError(error.message);
   }
