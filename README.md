@@ -16,7 +16,7 @@ translation of that text.
 ### Deno
 
 ```typescript
-import { insult, trnaslate } from "https://deno.land/x/pirate-api/mod.ts";
+import { insult, translate } from "https://deno.land/x/pirate_api/mod.ts";
 
 console.log(await insult());
 
