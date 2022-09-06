@@ -10,6 +10,10 @@ and this project adheres to
 
 ...
 
+## v1.0.1 - 2022-09-06
+
+- Ensure it works in common JS with Node 14 (using node-fetch@2)
+
 ## v1.0.0 - 2022-09-06
 
 ### Added
