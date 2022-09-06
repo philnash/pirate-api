@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+...
+
+## v1.0.0 - 2022-09-06
+
 ### Added
 
 - Functions to generate an insult or an English to Pirate translation
